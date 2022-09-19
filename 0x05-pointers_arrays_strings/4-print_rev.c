@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 /**
  * print_rev - prints a string, followed by a new line.
  * @s: input string to print.
