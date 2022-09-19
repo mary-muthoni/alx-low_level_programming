@@ -1,9 +1,12 @@
 #include <stdio.h>
 include "main.h"
+
 /**
  * print_array - Print an array up to n.
  * @a: the array of elements
  * @n: the number of elements of the array *a.
+ *
+ * Return: Void
  */
 void print_array(int *a, int n)
 {
