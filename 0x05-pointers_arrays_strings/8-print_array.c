@@ -3,11 +3,12 @@
 
 /**
  * print_array - Print elements of an array
- * @a: the array of elements
- * @n: the number of elements to be printed
+ * @a: array
+ * @n: number of elements to be printed
  *
  * Return: Void
  */
+
 void print_array(int *a, int n)
 {
 	int i;
@@ -17,7 +18,7 @@ void print_array(int *a, int n)
 		print("%d", a[i]);
 		if (i == (n - 1))
 			break;
-		putchar('.');
+		putchar(',');
 		putchar(' ');
 	}
 	putchar(10);
