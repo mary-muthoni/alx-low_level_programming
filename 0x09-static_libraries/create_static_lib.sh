@@ -1,12 +1,3 @@
 #!/bin/bash
-   
-    gcc -c ../0x02*/{3,4,6}-*.c ./;
-    gcc -c ../0x04*/{0,1}-*.c ./;
-    gcc -c ../0x05*/{100,2,3,9}-*.c ./;
-    gcc -c ../0x06*/{0..3}-*.c ./;
-    gcc -c ../0x07*/{0..5}-*.c ./;
-    gcc -c ../0x02*/_putchar.c ./;
-   
-    rm [[:digit:]]-main.o;
-   
-    ar cr libmy.a [[:digit:]]-*.o 
+gcc -Wall -Werror -Wextra -pedantic -c *.c
+ar -rc liball.a *.o
