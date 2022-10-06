@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * _realloc - reallocates a memory block
  * @ptr: pointer to the original memory block
