@@ -1,7 +1,4 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include "main.h"
-
 /**
  * _stoi - converts chars to ints
  * @c: char to convert
@@ -11,7 +8,6 @@ unsigned int _stoi(char c)
 {
 	return ((unsigned int) c - '0');
 }
-
 /**
  * _strlen - calculates the length of the string
  * @s: inpu
@@ -25,7 +21,6 @@ unsigned int _strlen(const char *s)
 		;
 	return (i);
 }
-
 /**
  * binary_to_uint - converts a string of 1's and 0's to a decimal number
  * @b: string to convert
